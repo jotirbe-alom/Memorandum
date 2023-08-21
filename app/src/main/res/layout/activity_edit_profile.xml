@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edit_profile_bg">
+
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/default_propic" />
+
+    <EditText
+        android:id="@+id/editProfileName"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter text here"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editProfileUsername"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter text here"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editProfilePassword"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter text here"
+        android:inputType="numberPassword"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editProfileReTypePassword"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:inputType="numberPassword"
+        android:textSize="20sp"
+        android:hint="Enter text here" />
+
+    <Button
+        android:id="@+id/editProfileSavebtn"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="250dp"
+        android:text="Save"
+        android:backgroundTint="@color/clr1"/>
+</LinearLayout>
